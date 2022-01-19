@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/acer/AndroidStudioProjects/Android-PDF-Viewer/app/src/main/res/layout/activity_main.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/Android-PDF-Viewer/app/src/main/res/layout/activity_pdf.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/Android-PDF-Viewer/app/src/main/res/layout/rv_item.xml" value="0.152" />
       </map>
     </option>
   </component>
