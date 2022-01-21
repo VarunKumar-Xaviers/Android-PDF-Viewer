@@ -1,19 +1,16 @@
 package com.example.pdfreader;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.net.Uri;
-import android.net.UrlQuerySanitizer;
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.github.barteksc.pdfviewer.PDFView;
 
 import java.io.File;
 
 public class PdfActivity extends AppCompatActivity {
-
-    String filePath = null;
-
+    String filePath = "";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,9 +18,9 @@ public class PdfActivity extends AppCompatActivity {
 
         PDFView pdfView = findViewById(R.id.pdfView);
         filePath = getIntent().getStringExtra("path");
-        File file =  new File(filePath);
+
+        File file = new File(filePath);
         Uri path = Uri.fromFile(file);
         pdfView.fromUri(path).load();
-
     }
-}
+}   
